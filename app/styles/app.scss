@@ -1,1 +1,22 @@
-@import 'ember-paper';
+$primary: "teal";
+$accent: "light-green";
+$warn: "pink";
+
+// If desired, import the palettes and modify to your liking.
+@import "color-palette";
+$color-teal: map-merge($color-teal, ('contrastDefaultColor':  $light-contrast-color));
+$color-light-green: map-merge($color-light-green, ('contrastDefaultColor':  $light-contrast-color));
+
+// Import the rest of ember-paper.
+@import "ember-paper";
+
+.menu-item {
+  color: contrastColor($primary, '500');
+  background-color: color($primary, '200');
+}
+
+.menu {
+  color: contrastColor($primary, '500');
+  background-color: color($primary, '200');
+}
+
