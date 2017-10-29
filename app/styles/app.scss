@@ -15,10 +15,30 @@ $color-light-green: map-merge($color-light-green, ('contrastDefaultColor':  $lig
   background-color: color($primary);
 }
 
+.menu-item:hover{
+  color: contrastColor($primary, '500');
+  background-color: color($primary, '100');
+}
+
 .menu {
   color: contrastColor($primary, '500');
   background-color: color($primary);
   min-height: 100vh;
+}
+
+.menu a {
+  color: contrastColor($primary, '500');
+  text-decoration: none;
+}
+
+.menu a:visited {
+  color: contrastColor($primary, '500');
+  text-decoration: none;
+}
+
+.menu a:link {
+  color: contrastColor($primary, '500');
+  text-decoration: none;
 }
 
 .app-main {
