@@ -1,5 +1,5 @@
-$primary: "blue-grey";
-$accent: "indigo";
+$primary: "deep-orange";
+$accent: "orange";
 $warn: "pink";
 
 // If desired, import the palettes and modify to your liking.
@@ -12,12 +12,12 @@ $color-light-green: map-merge($color-light-green, ('contrastDefaultColor':  $lig
 
 .menu-item {
   color: contrastColor($primary, '500');
-  background-color: color($primary, '200');
+  background-color: color($primary);
 }
 
 .menu {
   color: contrastColor($primary, '500');
-  background-color: color($primary, '200');
+  background-color: color($primary);
   min-height: 100vh;
 }
 
