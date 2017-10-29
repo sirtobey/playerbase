@@ -17,7 +17,7 @@ $color-light-green: map-merge($color-light-green, ('contrastDefaultColor':  $lig
 
 .menu-item:hover{
   color: contrastColor($primary, '500');
-  background-color: color($primary, '100');
+  background-color: color($primary, '400');
 }
 
 .menu {
