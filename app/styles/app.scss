@@ -18,5 +18,9 @@ $color-light-green: map-merge($color-light-green, ('contrastDefaultColor':  $lig
 .menu {
   color: contrastColor($primary, '500');
   background-color: color($primary, '200');
+  min-height: 100vh;
 }
 
+.app-main {
+  min-height: 100vh;
+}
